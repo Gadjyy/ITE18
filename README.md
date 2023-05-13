@@ -1,65 +1,38 @@
-# Getting Started with Create React App
+# Nuxt.js (Optional Framework) Authentication with Strapi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project, I used React App and Strapi plugins to create/implement a basic authentication system.
 
-## Available Scripts
+## Project Setup
 
-In the project directory, you can run:
+To make this project, you'll need to install React App and its dependencies. Here's how to get started:
 
-### `npm start`
+1. Install React App:
+-> npx create-react-app my-app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Install dependencies:
+->cd my-app
+->npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Configuration
 
-### `npm test`
+If you need to modify the default configuration of your React app, you can do so by editing the package.json file in your project directory. For example, you can add new dependencies or scripts to your project by adding them to the dependencies and scripts sections of the file.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-> npx create-react-app <app-name> - This command creates a new React app with the specified name using the create-react-app tool.
+-> npm start - This command starts the development server and launches the app in a web browser.
+-> npm run build - This command builds the app for production and generates a build folder containing the optimized assets and files.
+-> npm install <package-name> - This command installs a new package or library as a dependency in the app.
+-> npm uninstall <package-name> - This command removes a package or library from the app's dependencies.
+-> npm run <script-name> - This command runs a script defined in the package.json file, such as a custom build or test script.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+TO use this app, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Start the development server.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Open a web browser and navigate to [http://localhost:3000](http://localhost:3000) or you can type this in the command prompt (npm start) it will automatically navigate you.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Use the app to perform the desired actions.
 
 ### Deployment
 
