@@ -46,3 +46,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Strapi
+  http://localhost:1337/admin
+  
+You can access the Strapi backend through my Strapi account with the following credentials:
+shoyo@gmail.com
+Shoyo1234
